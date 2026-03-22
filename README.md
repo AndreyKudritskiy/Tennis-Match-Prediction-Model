@@ -40,5 +40,4 @@ Top features by importance: player ELO (most important by far), ATP rank, domina
   many of these features are discussed in the notebook, however I did not have time to implement them due to time constraints and incoming due dates
 * Research elo calculations in other sports/games like chess or competitive matchmaking in online video games. apply findings to current elo approach
 * review model for leakage: it's unexpected that right/left handedness was one of the most important features
-* explore ensembling approaches to optimize trees by feature types (categorical, binary, 
-
+* explore possibility to seperate features into distinct models to then aggregate specialized model results into larger ensemble model
