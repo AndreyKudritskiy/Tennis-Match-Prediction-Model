@@ -13,9 +13,9 @@ Recognized that raw match data (winner/loser stats, hands, ranks) directly revea
 Engineered an ELO rating system: all players start at 1500, and ratings update after each match chronologically — only the pre-match ELO is used as a feature to prevent leakage
 Final feature set includes ELO, ATP rank, rank points, height, age, dominant hand, country, surface, and tournament level
 
-## EDA Highlights
+## EDA example questions 
 
-Left-handed players win ~52% of matches against right-handed players (small but real edge)
+Discovered small advantage for Left-handed players win ~52% of matches against right-handed players
 ATP players debut at ~21.5 years old on average and retire around 26.6
 No significant birth-month skew (unlike hockey), and the USA produces the most ATP match appearances
 
